@@ -1,0 +1,216 @@
+header {
+	background-color: black;
+	color: white;
+	padding: 20px;
+}
+
+header h1 {
+	color: white;
+}
+
+footer {
+	text-align: center;
+	background-color: #34495e;
+	color: aliceblue;
+	padding: 10px;
+	position: fixed;
+	bottom: 0;
+	width: 100%;
+}
+
+input{
+	display: flex;
+	margin: 20px auto;
+	padding: 10px;
+	min-width: 300px;
+	font-size: 1.5em;
+}
+
+
+
+section {
+	margin: 20px auto;
+	width: 80%;
+	min-height: 80vh;
+	background-color: white;
+	border-radius: 20px;
+	background-size: cover;
+	background-attachment: fixed;
+	display: flex;
+	position: relative;
+	overflow: hidden;
+	background: linear-gradient(45deg,#f2d12a78,white);
+	margin-bottom: 50px;
+}
+
+.sun{
+	height: 100px;
+	width:100px;
+	border-radius: 50%;
+	background-color: #F2D02A;
+	border: 1px solid rgba(128, 128, 128, 0.319);
+	margin: 5px;
+}
+
+
+.circle1,.circle2,.circle3,.circle4{
+	width: 35vw;
+	height: 25vw;
+	border-radius: 50%;
+	/* border: 1px solid blue; */
+	margin: -40px;
+	background-color: #00aaff36;
+	z-index: 10;
+}
+
+
+.circle1{
+	width: 30vw;
+}
+.circle2{
+	width: 34vw;
+}
+.circle3{
+	width: 33vw;
+}
+.circle4{
+	width: 28vw;
+}
+
+.animation,.animation1{
+	position:absolute;
+	display: flex;
+	/* border: 5px solid aquamarine; */
+	bottom:-30%;
+}
+.animation{
+	animation: animate 10s  infinite linear ;
+}
+.animation1{
+
+}
+.animation1{
+	animation: animate2 10s  infinite linear ;
+
+}
+@keyframes animate {
+	from{
+		left: 0%;
+	}
+	to{
+		left:100%
+	}
+}
+@keyframes animate2 {
+	from{
+		left: -100%;
+	}
+	to{
+		left:0%
+	}
+}
+
+
+
+
+.left{
+	width: 40%;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-evenly;
+	align-items: center;
+	font-size: 1.5em;
+	z-index: 100;
+}
+
+.temp{
+	display: flex;
+	align-items: center;
+	min-width:250px;
+	justify-content: space-between;
+}
+
+.temp img{
+	width: 100px;
+}
+
+.other{
+	min-width: 300px;
+	display: flex;
+	justify-content: space-between;
+	font-size: .8em;
+}
+
+.other div{
+	margin: 10px 0 ;
+}
+.other div div{
+	display: flex;
+	min-width:100px;
+	justify-content: space-evenly;
+}
+
+.right{
+	width: 60%;
+
+	display: flex;
+	flex-direction: column;
+	justify-content: space-evenly;
+	align-items: center;
+	font-size: 1.2em;
+	z-index: 100;
+}
+.position,.cloud,.temprature{
+	display: flex;
+	justify-content: space-evenly;
+	align-items: center;
+}
+.position span,.cloud span,.temperature span{
+	margin-right: 20px;
+}
+
+
+
+
+
+.cards{
+	display: flex;
+	justify-content: space-evenly;
+	align-items: center;
+	z-index: 1000;
+}
+
+.card{
+	border: 1px solid rgba(128, 128, 128, 0.339);
+	display: flex;
+	justify-content: space-evenly;
+	align-items: center;
+	flex-direction: column;
+	padding: 10px;
+	height: 200px;
+	width: 150px;
+	border-radius: 10px;
+	font-size: 0.8em;
+	margin: 10px;
+	box-shadow: 5px 5px 15px rgb(138, 139, 136) ;
+}
+
+.card img{
+	width: 80px;
+}
+
+
+aside{
+	width: 50vw;
+	height: 50vh;
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	align-items: center;
+	margin: 20px auto;
+	font-weight: bold;
+	font-size: 2em;
+}
+aside div{
+	margin: 15px;
+}
