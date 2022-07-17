@@ -5,6 +5,12 @@ node_modules
 .pnp
 .pnp.js
 package-lock.json
+.firebaserc
+.firebase
+firebase.json
+
+
+
 # testing
 coverage
 

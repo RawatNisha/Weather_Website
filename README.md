@@ -2,12 +2,14 @@
 <h3>Created By: Nisha Rawat</h3>
 <hr>
 <p>ReactJS is used for this Project</p>
+<p>Hosted link of project is: https://get-weather-app-ce673.web.app/</p>
 <hr>
 
 
 <h2>Required things</h2>
 <ul>
     <li>NodeJS Must be installed</li>
+    <li>Secret App key is needed to run the application</li>
 </ul>
 <hr><br>
 

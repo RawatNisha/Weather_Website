@@ -12,8 +12,7 @@ function App() {
         try {
 
             // any response  returned by the  respective backend
-            let response = await fetch(`https://api.openweathermap.org/data/2.5/weather?q=${string.toLowerCase()}&appid=9202cdd3bbcd3836224793b27b4882c3`)
-
+            let response = await fetch(`https://api.openweathermap.org/data/2.5/weather?q=${string.toLowerCase()}&appid={SecretKeyID}`)
 
             // console.log(response);
 
